@@ -26,8 +26,8 @@ body {
   height: 100vh;
   padding: 3rem;
   display: flex;
-  align-items: center;       /* vertical centering of hero row */
-  justify-content: space-between;
+  align-items: center;      /* vertical center of row */
+  justify-content: center;  /* horizontal center of row */
   gap: 2rem;
   background: linear-gradient(140deg, #000, #081018, #0c0f18, #000);
 }
@@ -36,9 +36,11 @@ body {
   max-width: 550px;
   display: flex;
   flex-direction: column;
-  justify-content: center;    /* vertical center */
-  align-items: flex-start;    /* horizontal alignment; change to center if you want fully centered text */
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  text-align: center;      /* text center */
 }
+
 
 .hero-left h1 {
   font-size: 4rem;
